@@ -8,7 +8,7 @@ const TodaysEngineers = ({ shiftToday }) => {
     <section className="mt4-ns mt2 flex flex-column flex-row-ns">
 
       <div className="w-50-ns flex flex-column items-center">
-        <header className="f2 pv3">AM</header>
+        <header className="f2 pv3">Morning</header>
         <img
           className={`${new Date().getHours() >= 8 & new Date().getHours() < 13 ? 'animation' : ''} w-50 w-40-ns`}
           src={ morning }
@@ -18,7 +18,7 @@ const TodaysEngineers = ({ shiftToday }) => {
       </div>
 
       <div className="w-50-ns flex flex-column items-center">
-        <header className="f2 pv3">PM</header>
+        <header className="f2 pv3">Evening</header>
         <img
           className={`${new Date().getHours() >= 13 ? 'animation' : ''} w-50 w-40-ns`}
           src={ afternoon }

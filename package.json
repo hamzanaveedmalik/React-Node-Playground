@@ -1,7 +1,7 @@
 {
-  "name": "support-wheel-of-fate",
+  "name": "swof-master",
   "version": "1.0.0",
-  "description": "evenly allocate an engineer to support roles",
+  "description": "",
   "main": "server.js",
 
   "scripts": {
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jessicasalmon/support-wheel-of-fate.git"
+    "url": "git+https://github.com/hamzanaveedmalik/React-Node-Playground"
   },
-  "author": "Jessica Salmon",
+  "author": "Hamza Naveed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jessicasalmon/support-wheel-of-fate/issues"
+    "url": "https://github.com/hamzanaveedmalik/React-Node-Playground/issues"
   },
-  "homepage": "https://github.com/jessicasalmon/support-wheel-of-fate#readme",
+  "homepage": "https://github.com/hamzanaveedmalik/React-Node-Playground#readme",
   "devDependencies": {
     "concurrently": "^3.5.1",
     "tachyons": "^4.9.0",

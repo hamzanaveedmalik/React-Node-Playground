@@ -1,11 +1,6 @@
-# [Support Wheel Of Fate](https://which-engineer-is-it-anyway.herokuapp.com/)
 
 ## What is it?
 An app to assign engineers to support roles and see who's on support today.
-
-| Desktop      | Mobile         |
-| ------------- |:-------------:|
-| <img width="1437" alt="screen shot 2018-01-15 at 10 28 18" src="https://user-images.githubusercontent.com/19147734/34938069-d9e801a2-f9de-11e7-809d-ea80aa48456a.png"> | <img width="371" alt="screen shot 2018-01-14 at 22 44 27" src="https://user-images.githubusercontent.com/19147734/34938077-df4a7d64-f9de-11e7-95ed-86a3355390a7.png"> |
 
 #### The rules
 - [x] an engineer can work a maximum of 1 half day shift per day
@@ -21,39 +16,32 @@ The app allows the user to generate which engineers will cover support today. In
 
 | Frontend      | Backend       | Database   |
 | ------------- |:-------------:| ----------:|
-| React         | Express       | postgresql |
-| Tachyons      | Node          |            |
+| React         | Node          | PostgreSQL |
+|               | Express       |            |
 
 
 ## Running the project
 Follow these steps to get the project running on your local machine
 ```
-git clone https://github.com/jessicasalmon/support-wheel-of-fate.git
-cd support-wheel-of-fate
+git clone https://github.com/hamzanaveedmalik/React-Node-Playground.git
+cd React-Node-Playground
 npm i
-npm run dev-start // starts the app
-npm test // runs the tests
+npm run dev-start
+npm test
 ```
 ## Set up the database
-1) create a database called `support-wheel-of-fate`
+1) create a database called `//NameOfDB`
 
 2) create a config-test.env file and put the following key in there
 
 ```
-export DATABASE_URL='postgres://yourusername:@localhost:5432/support-wheel-of-fate'
+export DATABASE_URL='postgres://yourusername:@localhost:5432/NameOfDB'
 ```
 
 3) build the database
 ```
-npm run build-local-db 
+npm run build-local-db
 ```
 
-## Roadmap
-Some ideas for how I'd extend the project if building out into a product
 
-- Rota: set support shifts in advance
-- Swap shifts: not a good day to be on support? Or perhaps you're sick. No worries, swap your shift with a friendly co-worker :smile:
-- Future/past views: different views for people: working today, this whole week, next two weeks and the past
-
-
-View the live site [here](https://which-engineer-is-it-anyway.herokuapp.com/).
+View the live site [here](https://boiling-ravine-73195.herokuapp.com/).
