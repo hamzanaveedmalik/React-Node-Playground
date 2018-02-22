@@ -13,13 +13,13 @@ body {
 }
 
 .gradient {
-  background: linear-gradient( #ffbc67 60.1%, #da727e 50%);
+  background: linear-gradient( #222760 60.1%, #272728 50%);
 
 }
 
 @media (min-width: 480px) {
   .gradient {
-    background: linear-gradient(to right, #ffbc67 50.1%, #da727e 50%);
+    background: linear-gradient(to right, #222760 50.1%, #272728 50%);
   }
 }
 
@@ -33,7 +33,7 @@ body {
 
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: scale(1.5);
     opacity: 0.7;
   }
   100% {

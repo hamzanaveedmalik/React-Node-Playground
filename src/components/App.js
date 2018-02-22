@@ -55,7 +55,7 @@ class App extends Component {
     return (
       <div className="app-container w-100 mt0 white">
         <Header
-          title='Shift Selector'
+          title='Support of Wheel'
           PickEngineers={ PickEngineers }
           selectTodaysEngineers = { this.selectTodaysEngineers }
           />
