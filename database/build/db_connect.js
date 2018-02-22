@@ -6,7 +6,7 @@ let options;
 if (process.env.NODE_ENV === 'test') {
 
   options = {
-    database: 'swofdb'
+    database: 'd8mtjg30bofgbs'
   }
   environment('./config-test.env');
 }
