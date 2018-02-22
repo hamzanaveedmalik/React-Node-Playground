@@ -5,7 +5,7 @@ const PickEngineers = ({ selectTodaysEngineers }) => {
     <div
     onClick={() => selectTodaysEngineers()}
     className="grow f4 pv3 pa3 bg-black-30 tc pointer br3 ttu b">
-      Spin
+      Pick Engineers
     </div>
   )
 };
