@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="160px" height="15px" viewBox="0 0 160 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="152px" height="16px" viewBox="0 0 152 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>EVENING SHIFT</title>
+    <title>Group 2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="20" font-family="AmericanTypewriter-Semibold, American Typewriter" font-weight="500">
-        <text id="EVENING-SHIFT" fill="#FFFFFF">
-            <tspan x="0.93" y="14">EVENING SHIFT</tspan>
-        </text>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-49.000000, -67.000000)">
+            <rect id="Rectangle" x="0" y="0" width="250" height="150"></rect>
+            <text id="EVENING-SHIFT" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" fill="#FCFCFC">
+                <tspan x="48.3251953" y="82">EVENING SHIFT</tspan>
+            </text>
+        </g>
     </g>
 </svg>
