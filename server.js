@@ -9,7 +9,9 @@ const getShifts = require('./database/queries/getShifts.js');
 const updateEngineers = require('./database/queries/updateEngineers.js');
 const updateShifts = require('./database/queries/updateShifts.js');
 
-
+// if (process.env.NODE_ENV === 'test') {
+//   require('env2')('config-test.env');
+// }
 
 app.use(bodyParser.json());
 
@@ -30,7 +32,7 @@ app.get('/engineers', (req, res) => {
         if(err) {
           return res.status(500).json({
             type: 500,
-            message: 'No response from server'
+            message: 'error from server'
           });
         } else {
 
@@ -55,7 +57,7 @@ app.post('/engineers/update', (req, res) => {
     if (err) {
       return res.status(500).json({
         type: 500,
-        message: 'No response from server'
+        message: 'error from the server'
       })
     }
     else {
@@ -64,7 +66,7 @@ app.post('/engineers/update', (req, res) => {
         if (err) {
           return res.status(500).json({
             type: 500,
-            message: 'No response from server'
+            message: 'error from the server'
         })
         }
         else {
@@ -79,7 +81,7 @@ app.post('/engineers/update', (req, res) => {
   });
 });
 
-//app.use('/jessicasalmon/support-wheel-of-fate/', express.static(path.resolve(__dirname, './build')));
+app.use('/jessicasalmon/support-wheel-of-fate/', express.static(path.resolve(__dirname, './build')));
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, './build', 'index.html'));
 });
